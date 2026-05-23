@@ -1,0 +1,9 @@
+name: CI Pipeline           # Workflow name
+on: [push, pull_request]    # Trigger events
+jobs:                       # Define jobs
+  build:                    # Job name
+    runs-on: ubuntu-latest  # Runner machine
+    steps:                  # Steps to execute
+      - uses: actions/checkout@v2     # Use action
+      - run: npm install              # Run command
+      - run: npm test
