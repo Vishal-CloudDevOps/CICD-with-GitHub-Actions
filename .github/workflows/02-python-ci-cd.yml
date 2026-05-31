@@ -19,8 +19,7 @@ on:
     
   pull_request:
     branches: [main]
-    paths:
-      - 'project-02-python-ci-cd/**'
+    
   workflow_dispatch:
 
 permissions:

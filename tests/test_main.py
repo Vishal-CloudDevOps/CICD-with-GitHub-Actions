@@ -175,4 +175,3 @@ class TestStats:
         """❌ List with non-numeric elements returns 400."""
         res = client.post("/api/stats", json={"numbers": [1, "two", 3]})
         assert res.status_code == 400
-

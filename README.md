@@ -172,4 +172,4 @@ Caches `~/.cache/pip` keyed by requirements file hash. Saves ~60 seconds on repe
 
 ## 📚 Next Steps
 
-➡️ **Project 03** — Docker builds, ECR push, and Trivy container scanning.
+➡️ **Project 03** — Docker builds, ECR push, and Trivy container scanning..
