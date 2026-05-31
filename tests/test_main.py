@@ -1,6 +1,6 @@
 """
 Comprehensive test suite for the Flask API.
-Includes positive (happy path) and negative (error/edge case) tests.
+Includes positive (happy path) and negative (error/edge case) tests..
 """
 
 import pytest
